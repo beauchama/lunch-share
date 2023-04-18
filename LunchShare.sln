@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Server", "src\blaz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Client.Services", "src\blazor\Weathers\Weathers.Client.Services\Weathers.Client.Services.csproj", "{7DA49B9A-EB66-4208-874F-E1839AFA4F5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weathers.Client", "src\blazor\Weathers\Weathers.Client\Weathers.Client.csproj", "{C2BCA264-C56A-4DE9-9667-C847D47BF404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Client", "src\blazor\Weathers\Weathers.Client\Weathers.Client.csproj", "{C2BCA264-C56A-4DE9-9667-C847D47BF404}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
