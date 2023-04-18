@@ -1,0 +1,18 @@
+@page "/weathers"
+@inherits FluxorComponent
+
+<PageTitle>Weather</PageTitle>
+
+<div>
+    <p>Count: @count</p>
+</div>
+
+@if (!WeatherForecastState.Value.IsLoading)
+{
+    <QuickGrid Items="WeatherForecastState.Value.WeatherForecasts.AsQueryable()">
+        <PropertyColumn Property="@(f => f.Date)" Title="Date" Sortable="true" Format="yyyy-MM-dd" />
+        <PropertyColumn Property="@(f => f.TemperatureInCelsius)" Title="Temp. (C)" Sortable="true" />
+        <PropertyColumn Property="@(f => f.TemperatureInFahrenheit)" Title="Temp. (F)" Sortable="true" />
+        <PropertyColumn Property="@(f => f.Summary)" Title="Summary" />
+    </QuickGrid>
+}

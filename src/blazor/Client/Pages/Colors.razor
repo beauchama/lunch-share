@@ -1,0 +1,22 @@
+﻿@page "/colors"
+
+<PageTitle>Colors</PageTitle>
+
+<select @bind="selectedColor" @bind:after="OnColorChange">
+    <option value="0">None</option>
+    @foreach (var (color, _) in ColorsToPick)
+    {
+        <option value="@color.Id">@color.Name</option>
+    }
+</select>
+
+<select @onchange="OnSubColorChangeAsync">
+    <option value="0">None</option>
+    @foreach (var subColor in subColors)
+    {
+        <option value="@subColor.Code">@subColor.Name</option>
+    }
+</select>
+
+<div id="square" class="square">
+</div>

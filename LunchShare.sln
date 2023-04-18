@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33606.364
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "blazor", "blazor", "{1277B8F3-7642-4AA1-BBAD-A5CF78E2607C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorLunchShare.Client", "src\blazor\Client\BlazorLunchShare.Client.csproj", "{50C64D62-388B-4A26-89E2-408B20840831}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorLunchShare.Server", "src\blazor\Server\BlazorLunchShare.Server.csproj", "{3BB46374-6705-46B8-9DBF-DBF1EDE1CFC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weathers", "Weathers", "{C867908C-FA8E-4098-BDFD-1947190F8F46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{004C7DC9-64F4-418D-9A65-307CDEF4E25F}"
+	ProjectSection(SolutionItems) = preProject
+		directory.build.props = directory.build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Domain", "src\blazor\Weathers\Weathers.Domain\Weathers.Domain.csproj", "{FC72E113-9696-4A41-B08A-06E5EB62FB3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Shared", "src\blazor\Weathers\Weathers.Shared\Weathers.Shared.csproj", "{2657A76D-1001-411E-B91B-9D7E2C2BDDB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Persistence", "src\blazor\Weathers\Weathers.Persistence\Weathers.Persistence.csproj", "{2EBA5B18-AE9E-4E8D-A922-E37CB32327E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Server", "src\blazor\Weathers\Weathers.Server\Weathers.Server.csproj", "{9D98EC0A-D928-4B0F-9F77-F8D3AB8442D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weathers.Client.Services", "src\blazor\Weathers\Weathers.Client.Services\Weathers.Client.Services.csproj", "{7DA49B9A-EB66-4208-874F-E1839AFA4F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weathers.Client", "src\blazor\Weathers\Weathers.Client\Weathers.Client.csproj", "{C2BCA264-C56A-4DE9-9667-C847D47BF404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50C64D62-388B-4A26-89E2-408B20840831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C64D62-388B-4A26-89E2-408B20840831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C64D62-388B-4A26-89E2-408B20840831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C64D62-388B-4A26-89E2-408B20840831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB46374-6705-46B8-9DBF-DBF1EDE1CFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB46374-6705-46B8-9DBF-DBF1EDE1CFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB46374-6705-46B8-9DBF-DBF1EDE1CFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB46374-6705-46B8-9DBF-DBF1EDE1CFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC72E113-9696-4A41-B08A-06E5EB62FB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC72E113-9696-4A41-B08A-06E5EB62FB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC72E113-9696-4A41-B08A-06E5EB62FB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC72E113-9696-4A41-B08A-06E5EB62FB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2657A76D-1001-411E-B91B-9D7E2C2BDDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2657A76D-1001-411E-B91B-9D7E2C2BDDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2657A76D-1001-411E-B91B-9D7E2C2BDDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2657A76D-1001-411E-B91B-9D7E2C2BDDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBA5B18-AE9E-4E8D-A922-E37CB32327E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBA5B18-AE9E-4E8D-A922-E37CB32327E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBA5B18-AE9E-4E8D-A922-E37CB32327E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBA5B18-AE9E-4E8D-A922-E37CB32327E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D98EC0A-D928-4B0F-9F77-F8D3AB8442D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D98EC0A-D928-4B0F-9F77-F8D3AB8442D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D98EC0A-D928-4B0F-9F77-F8D3AB8442D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D98EC0A-D928-4B0F-9F77-F8D3AB8442D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA49B9A-EB66-4208-874F-E1839AFA4F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA49B9A-EB66-4208-874F-E1839AFA4F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA49B9A-EB66-4208-874F-E1839AFA4F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA49B9A-EB66-4208-874F-E1839AFA4F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BCA264-C56A-4DE9-9667-C847D47BF404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BCA264-C56A-4DE9-9667-C847D47BF404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BCA264-C56A-4DE9-9667-C847D47BF404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BCA264-C56A-4DE9-9667-C847D47BF404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50C64D62-388B-4A26-89E2-408B20840831} = {1277B8F3-7642-4AA1-BBAD-A5CF78E2607C}
+		{3BB46374-6705-46B8-9DBF-DBF1EDE1CFC4} = {1277B8F3-7642-4AA1-BBAD-A5CF78E2607C}
+		{C867908C-FA8E-4098-BDFD-1947190F8F46} = {1277B8F3-7642-4AA1-BBAD-A5CF78E2607C}
+		{FC72E113-9696-4A41-B08A-06E5EB62FB3E} = {C867908C-FA8E-4098-BDFD-1947190F8F46}
+		{2657A76D-1001-411E-B91B-9D7E2C2BDDB3} = {C867908C-FA8E-4098-BDFD-1947190F8F46}
+		{2EBA5B18-AE9E-4E8D-A922-E37CB32327E1} = {C867908C-FA8E-4098-BDFD-1947190F8F46}
+		{9D98EC0A-D928-4B0F-9F77-F8D3AB8442D7} = {C867908C-FA8E-4098-BDFD-1947190F8F46}
+		{7DA49B9A-EB66-4208-874F-E1839AFA4F5D} = {C867908C-FA8E-4098-BDFD-1947190F8F46}
+		{C2BCA264-C56A-4DE9-9667-C847D47BF404} = {C867908C-FA8E-4098-BDFD-1947190F8F46}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {774E817E-12C9-4E5B-AD34-EC8DD06A17E0}
+	EndGlobalSection
+EndGlobal
